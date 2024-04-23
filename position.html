@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static {
+            position: static;
+            background-color: lightblue;
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .relative {
+            position: relative;
+            background-color: lightgreen;
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+
+            /* Custom Positioning Props */
+            top: 20px;
+            left: 30px;
+            /* bottom: 50px;
+            right: 50px; */
+        }
+
+        .relative2 {
+            height: 200px;
+        }
+
+        .absolute {
+            position: absolute;
+            background-color: lightyellow;
+            width: 150px;
+            padding: 10px;
+            margin-bottom: 10px;
+
+            /* Custom Positioning Props */
+            top: 0;
+            left: 0;
+        }
+
+        .fixed {
+            position: fixed;
+            background-color: lightpink;
+            width: 200px;
+            padding: 10px;
+
+            /* Custom Positioning Props */
+            top: 20px;
+            right: 20px;
+        }
+
+        .sticky {
+            position: sticky;
+            background-color: lightsalmon;
+            width: 200px;
+            padding: 10px;
+
+            /* Custom Positioning Props */
+            top: 20px;
+            left: 20px;
+        }
+
+        .sticky-nav {
+            position: sticky;
+            background-color: black;
+            padding: 20px;
+            z-index: 10;
+
+            top: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Positioning Elements Example</h1>
+    <div class="sticky-nav">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+
+    <div class="static">Static Position</div>
+    <div class="relative">Relative Position</div>
+    <div class="relative relative2">
+        <div class="absolute">Absolute Position</div>
+    </div>
+    <div class="fixed">Fixed Position</div>
+    <div class="sticky">Sticky Position</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis veniam adipisci labore modi consequatur cumque molestiae pariatur eveniet. Aut voluptates accusamus repudiandae pariatur, deleniti, laboriosam mollitia porro, laborum illo cumque dolor a libero commodi itaque nulla tempore? Non sint, vel quam reprehenderit officiis repellendus voluptates temporibus et ab, fugit laborum repudiandae? Perferendis molestiae distinctio nobis molestias voluptates dolorem illum corrupti aut reiciendis officia impedit ut aliquid voluptate voluptas modi, dolorum deserunt nam inventore. Quod eius et quo optio, facere debitis cumque ex dolorem ad ullam voluptatum, perspiciatis illum? Dignissimos explicabo quaerat consequuntur excepturi alias quod. At incidunt voluptas explicabo unde.</p>
+</body>
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
+.bg {
+    background-color:coral;
+
+    /* gradient background */
+    background: rgb(255,234,181);
+    background: linear-gradient(285deg, rgba(255,234,181,1) 1%, rgba(233,168,58,1) 54%, rgba(255,239,212,1) 100%);
+
+    /* background-image: url('sample.jpg'); */
+    background-image: url('https://www.zmo.ai/wp-content/uploads/2023/09/203119-plain-blue-green-and-yellow-background-vector-image-scaled.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+/* 
+    background: bg-color || bg-image || bg-position || bg-size || bg-repeat || bg-attachment;
+
+    background: aqua url('sample.jpg') center cover no-repeat fixed; */
+}
+
+.font-sample {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Jersey 20", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: mintcream;
+}
+
+.text-sample {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline line-through;
+    font-size: 20px;
+}
+
+#spacing-sample {
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: palegoldenrod;
+    text-indent: 30px;
+}
+
+/* 
+    text-shadow:
+        x-coordinate ||
+        y-coordinate ||
+        blur radius ||
+        color of the shadow
+*/
+#shadow-sample {
+    text-shadow: 10px -5px 10px #c64474;
+    font-size: 25px;
+}
+
+.box-model {
+    width: 150px;
+    height: 100px;
+    background-color: lavenderblush;
+
+    padding: 10px 20px 30px 40px;
+    padding-top: 50px;
+
+    border-color: crimson;
+    border-width: 5px;
+    border-style: outset;
+    border: 10px inset orange;
+    border-radius: 50px;
+
+    border-top: 5px solid purple;
+    border-right: 5px dashed magenta;
+    border-bottom: 8px dotted coral;
+    border-left: 8px double red;
+
+    margin: 5px 10px 40px 8px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* border: border-width || border-style || border-color */
+
+/* 
+    == MARGIN & PADDING ==
+        1 value : applied to all 4 sides
+        2 value : top and bottom side || right and left side
+        3 value : top side || left and right side || bottom side
+        4 value : top side || right side || bottom side || left side
+*/
